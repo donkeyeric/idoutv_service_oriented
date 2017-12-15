@@ -1,0 +1,23 @@
+{
+    "name": "donkeyeric/idoutv_service_oriented",
+    "description": "IDOUTV service oriented, All common service will be placed here.",
+    "license": "MIT",
+    "keywords": ["idoutv"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Eric Zhu",
+            "email": "donkeyeric_manager@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "IdoutvServiceOriented\\": "src/",
+            "IdoutvServiceOriented\\Test\\": "tests/"
+        }
+    }
+}
